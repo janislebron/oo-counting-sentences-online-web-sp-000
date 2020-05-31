@@ -3,25 +3,25 @@ require 'pry'
 class String
 
   def sentence?
-    if self.ends_with? == "."
+    if self.ends_with?(".")
       return true
-    elsif
+    else
       return false
     end
   end
 
   def question?
-   if self.ends_with? == "?"
+   if self.ends_with?("?")
       return true
-    elsif
+    else
       return false
     end
   end
 
   def exclamation?
-   if self.ends_with?( "!"
+   if self.ends_with?("!")
       return true
-    elsif
+    else
       return false
     end
   end
