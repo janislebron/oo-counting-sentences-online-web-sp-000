@@ -7,7 +7,11 @@ class String
   end
 
   def question?
-
+    if self == 
+      return true
+    elsif
+      return false
+    end
   end
 
   def exclamation?
