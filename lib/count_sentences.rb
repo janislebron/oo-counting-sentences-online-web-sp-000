@@ -19,7 +19,11 @@ class String
   end
 
   def exclamation?
-
+    if self == 
+      return true
+    elsif
+      return false
+    end
   end
 
   def count_sentences
